@@ -27,11 +27,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+User is able to take a picture and successfully add it without any issues
+
+<img src='ParstagramOverview.gif' width='200' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+- There was a bit of a delay since I updated grade and couldn't build the new project
+- I was finally able to do the starter project on my own!
+- I am more comfortable with creating a simple UI, now to master the full functionality! :D
 
 Describe any challenges encountered while building the app.
 
@@ -42,7 +47,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Henry]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
