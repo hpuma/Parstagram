@@ -34,7 +34,7 @@ User is able to take a picture and successfully add it without any issues
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-- There was a bit of a delay since I updated grade and couldn't build the new project
+- There was a bit of a delay since I updated gradle and couldn't build the new project
 - I was finally able to do the starter project on my own!
 - I am more comfortable with creating a simple UI, now to master the full functionality! :D
 
