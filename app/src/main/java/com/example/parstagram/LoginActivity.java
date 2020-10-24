@@ -25,11 +25,17 @@ public class LoginActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_login);
+
+    // If the user is already logged in, go into the main activity
+    if (ParseUser.getCurrentUser() != null){
+      goMainActivity();
+    }
     etUsername = findViewById(R.id.etUsername);
     etPassword = findViewById(R.id.etPassword);
     btnLogin = findViewById(R.id.btnLogin);
     btnLogin.setOnClickListener(new View.OnClickListener(){
 
+      // Handle login button
       @Override
       public void onClick(View v) {
         Log.i(TAG, "Clicked login button");
