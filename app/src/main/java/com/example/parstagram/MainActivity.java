@@ -36,7 +36,6 @@ import java.io.File;
 
 
 public class MainActivity extends AppCompatActivity {
-  public static final String TAG = "MainActivity";
 
   final FragmentManager fragmentManager = getSupportFragmentManager();
   private BottomNavigationView bottomNavigationView;
@@ -62,8 +61,10 @@ public class MainActivity extends AppCompatActivity {
             fragment = new ComposeFragment();
             break;
           case R.id.action_profile:
-          default:
             fragment = new ProfileFragment();
+            break;
+          default:
+            fragment = new PostsFragment();
             break;
         }
         fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();
