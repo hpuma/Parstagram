@@ -44,9 +44,9 @@ Time spent: **6** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can view the last 20 posts submitted to "Instagram".
-- [ ] The user should switch between different tabs - viewing all posts (feed view), compose (capture photos form camera) and profile tabs (posts made) using fragments and a Bottom Navigation View. (2 points)
-- [ ] User can pull to refresh the last 20 posts submitted to "Instagram".
+- [x] User can view the last 20 posts submitted to "Instagram".
+- [x] The user should switch between different tabs - viewing all posts (feed view), compose (capture photos form camera) and profile tabs (posts made) using fragments and a Bottom Navigation View. (2 points)
+- [x] User can pull to refresh the last 20 posts submitted to "Instagram".
 
 The following **optional** features are implemented:
 
@@ -70,7 +70,21 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+ User can login to their account successfully
+
+<img src='UserLogin.gif' title='Video Walkthrough' width=''/>
+
+
+ User can post a picture and view it on their timeline
+
+<img src='TakePicture.gif' title='Video Walkthrough' width=''/>
+
+
+ User can view their own profile
+
+
+<img src='ViewProfile.gif' title='Video Walkthrough' width=''/>
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
